@@ -34,7 +34,6 @@ import java.util.Properties;
 public class ElasticSearchConsumer {
 	  public static RestHighLevelClient createClient(){
 
-	       //https://6e2wrcpqd0:5ejt8pc0ad@kafka-course-4028680455.ap-southeast-2.bonsaisearch.net:443
 	        String hostname = ""; // localhost or bonsai url
 	        String username = ""; // needed only for bonsai
 	        String password = ""; // needed only for bonsai
